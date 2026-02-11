@@ -1,3 +1,9 @@
 {
-  "m.homeserver": { "base_url": "https://matrix.mynameiskir.com" }
+  "m.homeserver": { "base_url": "https://matrix.mynameiskir.com" },
+  "org.matrix.msc4143.rtc_foci":[
+    {
+      "type":"livekit",
+      "livekit_service_url":"https://matrixrtc.mynameiskir.com"
+    }
+  ]
 }
